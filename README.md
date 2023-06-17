@@ -24,6 +24,11 @@ We provide an environment file; ``environment.yml`` containing the required depe
 conda env create -f environment.yml
 ```
 
+### Dataset
+
+Please refer to [DOWNLOAD.md](data/DOWNLOAD.md) for dataset preparation.
+
+
 ### Train
 
 #### Training commands
