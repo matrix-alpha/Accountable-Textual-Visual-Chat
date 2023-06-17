@@ -1,4 +1,4 @@
-![Python >=3.6](https://img.shields.io/badge/Python->=3.6-blue.svg)
+![Python >=3.8](https://img.shields.io/badge/Python->=3.6-blue.svg)
 ![PyTorch >=1.1](https://img.shields.io/badge/PyTorch->=1.1-yellow.svg)
 
 ## Accountable Textual-Visual Chat Learns to Reject Human Instructions in Image Re-creation
@@ -10,7 +10,7 @@ Human Instructions in Image Re-creation]().
 
 ### Requirements
 
-- Python 3.6
+- Python 3.8
 - matplotlib == 3.1.1
 - numpy == 1.19.4
 - pandas == 0.25.1
