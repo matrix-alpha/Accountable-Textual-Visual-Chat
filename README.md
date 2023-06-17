@@ -34,8 +34,15 @@ bash dist_train_vae.sh ${DATA_NAME} ${NODES} ${GPUS}
 ```
 + To train the second stage:
 ```shell
-bash dist_train_atvc.sh
+bash dist_train_atvc.sh ${VAE_PATH} ${DATA_NAME} ${NODES} ${GPUS}
 ```
+
+#### Arguments
+
++ `${DATA_NAME}`: dataset for training, e.g. `CLEVR-ATVC`, `Fruit-ATVC`.
++ `${NODES}`: number of node.
++ `${GPUS}`: number of gpus for each node.
+
 
 ### Test
 
