@@ -30,7 +30,7 @@ conda env create -f environment.yml
 
 + To train the first stage:
 ```shell
-bash dist_train_vae.sh
+bash dist_train_vae.sh ${DATA_NAME} ${NODES} ${GPUS}
 ```
 + To train the second stage:
 ```shell
