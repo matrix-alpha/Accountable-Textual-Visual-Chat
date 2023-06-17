@@ -17,6 +17,13 @@ Human Instructions in Image Re-creation]().
 - scikit_learn == 0.21.3
 - torch == 1.8.0
 
+### Installation
+
+We provide an environment file; ``environment.yml`` containing the required dependencies. Clone the repo and run the following command in the root of this directory:
+```
+conda env create -f environment.yml
+```
+
 ## Citation
 If you find this code useful for your research, please cite our paper
 ```
