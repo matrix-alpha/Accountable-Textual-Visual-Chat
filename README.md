@@ -4,7 +4,7 @@
 ## Accountable Textual-Visual Chat Learns to Reject Human Instructions in Image Re-creation
 
 The *official* repository for [Accountable Textual-Visual Chat Learns to Reject
-Human Instructions in Image Re-creation]().
+Human Instructions in Image Re-creation](https://arxiv.org/pdf/2303.05983.pdf).
 
 ![ The overall framework of ATVC.](./assets/atvc.png)
 
