@@ -30,7 +30,7 @@ Please refer to [DOWNLOAD.md](data/DOWNLOAD.md) for dataset preparation.
 
 
 ### Pretrained Models
-Please refer to [pretrained-models](pretrained-models/README.md) to download the pretrained models.
+Please refer to [pretrained-models](pretrained-models/README.md) to download the released models.
 
 
 ### Train
