@@ -6,7 +6,7 @@
 The *official* repository for [Accountable Textual-Visual Chat Learns to Reject
 Human Instructions in Image Re-creation]().
 
-![ Qualitative results of CLEVR-ATVM dataset.](./assets/atvc.png)
+![ The overall framework of ATVC.](./assets/atvc.png)
 
 ### Requirements
 
