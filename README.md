@@ -51,12 +51,19 @@ bash dist_train_atvc.sh ${VAE_PATH} ${DATA_NAME} ${NODES} ${GPUS}
 
 + To test image reconstruction ability of the first stage:
 ```shell
-bash gen_vae.sh
+bash gen_vae.sh ${GPU} ${VAE_PATH} ${IMAGE_PATH}
 ```
 + To test atvc final model:
 ```shell
 bash gen_atvc.sh
 ```
+
+#### Arguments
+
++ `${GPU}`: id of one gpu, e.g. `0`.
++ `${VAE_PATH}`: path of pretrained vae model.
++ `${IMAGE_PATH}`: image path for reconstrction, e.g. `input.png`.
+
 
 ## Citation
 If you find this code useful for your research, please cite our paper
