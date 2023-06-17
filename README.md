@@ -24,6 +24,32 @@ We provide an environment file; ``environment.yml`` containing the required depe
 conda env create -f environment.yml
 ```
 
+### Train
+
+#### Training commands
+
++ To train the first stage:
+```shell
+bash dist_train_vae.sh
+```
++ To train the second stage:
+```shell
+bash dist_train_atvc.sh
+```
+
+### Test
+
+#### Testing commands
+
++ To test image reconstruction ability of the first stage:
+```shell
+bash gen_vae.sh
+```
++ To test atvc final model:
+```shell
+bash gen_atvc.sh
+```
+
 ## Citation
 If you find this code useful for your research, please cite our paper
 ```
