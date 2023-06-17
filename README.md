@@ -67,12 +67,12 @@ bash gen_atvc.sh ${GPU} ${ATVC_PATH} ${TEXT_QUERY} ${IMAGE_PATH}
 + `${TEXT_QUERY}`: text-based query, e.g. `"Please put the small blue cube on top of the small yellow cylinder."`.
 
 
-## License
+### License
 
 `ATVC` is released under the [Apache 2.0 license](LICENSE).
 
 
-## Citation
+### Citation
 If you find this code useful for your research, please cite our paper
 ```
 @article{zhang2023accountable,
