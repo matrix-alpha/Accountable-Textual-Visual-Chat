@@ -39,6 +39,7 @@ bash dist_train_atvc.sh ${VAE_PATH} ${DATA_NAME} ${NODES} ${GPUS}
 
 #### Arguments
 
++ `${VAE_PATH}`: path of pretrained vae model.
 + `${DATA_NAME}`: dataset for training, e.g. `CLEVR-ATVC`, `Fruit-ATVC`.
 + `${NODES}`: number of node.
 + `${GPUS}`: number of gpus for each node.
