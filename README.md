@@ -1,4 +1,4 @@
-![Python >=3.8](https://img.shields.io/badge/Python->=3.6-blue.svg)
+![Python >=3.8](https://img.shields.io/badge/Python->=3.8-blue.svg)
 ![PyTorch >=1.1](https://img.shields.io/badge/PyTorch->=1.1-yellow.svg)
 
 ## Accountable Textual-Visual Chat Learns to Reject Human Instructions in Image Re-creation
@@ -27,6 +27,10 @@ conda env create -f environment.yml
 ### Dataset
 
 Please refer to [DOWNLOAD.md](data/DOWNLOAD.md) for dataset preparation.
+
+
+### Pretrained Models
+Please refer to [pretrained models/README.md](pretrained models/README.md) to download the pretrained models.
 
 
 ### Train
