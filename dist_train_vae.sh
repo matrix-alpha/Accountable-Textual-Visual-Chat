@@ -18,4 +18,4 @@ do
 done
     
 $PYTHON -m torch.distributed.launch --nnodes=${NODES} --nproc_per_node=${GPUS} --node_rank=0 --master_addr="xx.xx.xx.xx" --master_port=$PORT \
-	 train_vae.py --image_folder /data/${DATA_NAME}/
+	 /atvc/train_vae.py --image_folder /data/${DATA_NAME}/
