@@ -94,7 +94,7 @@ If you find this code useful for your research, please cite our paper
 
 ## Acknowledgement
 
-Our code is learned from [DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) and [CLIP]([https://github.com/JDAI-CV/fast-reid](https://github.com/openai/CLIP)). We would like to thank Ying Cai, Xiaoai Sha and other members for helping label text-image pairs and participate in human evaluation experiments. We also appreciate all the people who are working on making code, models and data publicly available. We hope our explorations and findings contribute valuable insights regarding the accountability of textual-visual generative models.
+Our code is learned from [DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) and [CLIP](https://github.com/openai/CLIP). We would like to thank all the people who helpe label text-image pairs and participate in human evaluation experiments. We hope our explorations and findings contribute valuable insights regarding the accountability of textual-visual generative models.
 
 ## Contact
 
