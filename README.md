@@ -55,7 +55,7 @@ bash gen_vae.sh ${GPU} ${VAE_PATH} ${IMAGE_PATH}
 ```
 + To test atvc final model:
 ```shell
-bash gen_atvc.sh
+bash gen_atvc.sh ${GPU} ${ATVC_PATH} ${TEXT_QUERY} ${IMAGE_PATH}
 ```
 
 #### Arguments
@@ -63,6 +63,8 @@ bash gen_atvc.sh
 + `${GPU}`: id of one gpu, e.g. `0`.
 + `${VAE_PATH}`: path of pretrained vae model.
 + `${IMAGE_PATH}`: image path for reconstrction, e.g. `input.png`.
++ `${ATVC_PATH}`: path of pretrained atvc model.
++ `${TEXT_QUERY}`: text-based query, e.g. `Please put the small blue cube on top of the small yellow cylinder.`.
 
 
 ## Citation
