@@ -11,20 +11,20 @@ Save them under
 Accountable-Textual-Visual-Chat
 └── data
     ├── CLEVR-ATVC
-    │   └── train2023
-    │   │           └── tain_annotation.json
-    │   │           └── V
-    │   │           └── M
-    │   └── test2023
-    │   │           └── test_annotation.json
-    │   │           └── V
-    │   │           └── M
+    │       └── train2023
+    │       │       └── tain_annotation.json
+    │       │       └── V
+    │       │       └── M
+    │       └── test2023
+    │       │       └── test_annotation.json
+    │       │       └── V
+    │       │       └── M
     ├── Fruit-ATVC
-    │   └── train2023
-    │   │           └── tain_annotation.json
-    │   │           └── V
-    │   │           └── M
-    │   └── test2023
-    │   │           └── test_annotation.json
-    │   │           └── V
-    │   │           └── M
+    │       └── train2023
+    │       │       └── tain_annotation.json
+    │       │       └── V
+    │       │       └── M
+    │       └── test2023
+    │       │       └── test_annotation.json
+    │       │       └── V
+    │       │       └── M
